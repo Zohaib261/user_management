@@ -87,7 +87,7 @@ if(!empty($type)){
                     $conn->query("UPDATE user set LoginToken = '$token' WHERE UserID = '$user_id'");
                     $subject = "Login Token";
                     $body = "Dear $usernname,<br>Below is your security token.Please do not share with others.<br>Security token : <b>$token</b>";
-                    //$database->sendMail($mail,$user_email,$subject,$body);
+                    $database->sendMail($mail,$user_email,$subject,$body);
                     echo json_encode(array("type"=>"success","message" => "Security token has sent to your email.Please check your email.","data"=>array("user_id"=>$user_id,"username" => $usernname,"isVerify"=>"0")));
                 }else{
                     echo json_encode(array("type"=>"error","message" => "Your Account is not Active.Please contact to administrator"));
