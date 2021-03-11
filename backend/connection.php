@@ -11,10 +11,10 @@ require 'vendor/autoload.php';
 class Database{
   
     // specify your own database credentials
-    private $host = "localhost";
-    private $db_name = "user_management";
-    private $username = "root";
-    private $password = "";
+    private $host = "remotemysql.com";
+    private $db_name = "pNute8ZGhP";
+    private $username = "pNute8ZGhP";
+    private $password = "zzuYKKIfPK";
    // public $conn;
   
     // get the database connection

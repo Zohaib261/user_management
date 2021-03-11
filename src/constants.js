@@ -1,1 +1,1 @@
-export const api_url = "http://localhost/user_management/backend/";
+export const api_url = "https://userreactapi.herokuapp.com/";

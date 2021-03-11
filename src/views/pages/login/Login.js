@@ -53,7 +53,7 @@ class Login extends Component {
             }
 
             if(isVerify === '0'){
-                window.open('http://localhost:3000/#/loginVeriy',"_self");
+                window.open('#/loginVeriy',"_self");
             }
             
         }
@@ -169,7 +169,7 @@ class Login extends Component {
         if(messageType === 'Success'){
             localStorage.setItem('userDetail',JSON.stringify(stateData.userData));
             this.setState({ error: false,messageType:""});
-            window.open('http://localhost:3000/#/loginVeriy',"_self");
+            window.open('#/loginVeriy',"_self");
             console.clear();
         }
     }

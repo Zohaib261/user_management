@@ -25,10 +25,10 @@ class Dashboard extends Component {
             const isVerify = user_parse_data.isVerify;
     
             if(isVerify === '0'){
-                window.open('http://localhost:3000/#/loginVeriy',"_self");
+                window.open('#/loginVeriy',"_self");
             }
         }else{
-            window.open('http://localhost:3000/#/login',"_self");
+            window.open('#/login',"_self");
         }
     }
 

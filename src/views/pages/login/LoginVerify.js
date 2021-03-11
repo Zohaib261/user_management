@@ -51,7 +51,7 @@ class LoginVerify extends Component {
                 window.open('/',"_self");
             }            
         }else{
-            window.open('http://localhost:3000/#/login',"_self");
+            window.open('#/login',"_self");
         }
       }
       
