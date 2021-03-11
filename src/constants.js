@@ -1,0 +1,1 @@
+export const api_url = "http://localhost/user_management/backend/";
